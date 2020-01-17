@@ -20,10 +20,6 @@ ENV APP_ID='PgftxcVqjt'
 ENV MASTER_KEY='YOUR_MASTER_KEY'
 ENV READ_ONLY_MASTER_KEY='YOUR_READ_ONLY_MASTER_KEY'
  
-ENV MAILGUN_API_KEY='YOUR_MAILGUN_API_KEY'
-ENV MAILGUN_DOMAIN='YOUR_MAILGUN_DOMAIN'
-ENV MAILGUN_FROM_ADDRESS='YOUR_MAILGUN_FROM_ADDRESS'
-ENV MAILGUN_PUBLIC_LINK 'https://trynearme.app'
 
 # Mailgun host (default: 'api.mailgun.net'). 
 # When using the EU region, the host should be set to 'api.eu.mailgun.net'
