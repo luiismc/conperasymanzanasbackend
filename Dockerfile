@@ -26,4 +26,4 @@ RUN npm install -g @angular/cli@7.3.9
 COPY . /app
 
 # start app
-RUN npm run build
+CMD ng serve --host 0.0.0.0:8080
