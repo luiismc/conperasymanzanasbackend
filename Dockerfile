@@ -1,1 +1,0 @@
-ENV PUBLIC_SERVER_URL='http://cpmadmin.mbagancy.com'
