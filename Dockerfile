@@ -1,1 +1,1 @@
-ENV PUBLIC_SERVER_URL='https://cpmadmin.mbagancy.com'
+ENV PUBLIC_SERVER_URL='http://cpmadmin.mbagancy.com'
