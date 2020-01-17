@@ -2,6 +2,7 @@ FROM node:10.15.0
 
 WORKDIR /
 RUN npm install
+RUN ng serve
 
 
 
