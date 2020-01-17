@@ -1,11 +1,9 @@
 FROM node:10.15.0
 
-WORKDIR /app
-
-ADD package.json /package.json
+WORKDIR /
 RUN npm install
 
-ADD . /app
+
 
 ENV NODE_ENV='production'
 ENV LOG_LEVEL='error'
