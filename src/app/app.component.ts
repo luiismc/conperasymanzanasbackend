@@ -47,13 +47,13 @@ export class AppComponent {
         case "/tv-shows":
           const tvShowsMenuItem = document.getElementById("tvShowsMenuItem");
           tvShowsMenuItem.classList.add("active");
-          this.title = "TV Shows";
+          this.title = "Cursos";
           break;
 
         case "/movies":
           const moviesMenuItem = document.getElementById("moviesMenuItem");
           moviesMenuItem.classList.add("active");
-          this.title = "Movies";
+          this.title = "Guias";
           break;
 
         case "/home":
@@ -67,7 +67,7 @@ export class AppComponent {
             "categoriesMenuItem"
           );
           categoriesMenuItem.classList.add("active");
-          this.title = "Categories";
+          this.title = "Categorias";
           break;
 
         case "/comingSoon":
@@ -75,7 +75,7 @@ export class AppComponent {
             "comingSoonMenuItem"
           );
           comingSoonMenuItem.classList.add("active");
-          this.title = "Coming Soon";
+          this.title = "Proximamente...";
           break;
       }
     });
